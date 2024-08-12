@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
       "name": "ROLEX",
       "products": [
         {
-          "id" : "1",
+          "id": 1,
           "name": "Cappuccino",
           "productId": "rolex_001",
           "description": "With Oat Milk",
@@ -30,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.6,
         },
         {
-          "id" : "1",
+          "id": "2",
           "name": "Cappuccino",
           "productId": "rolex_002",
           "description": "With Chocolate",
@@ -40,7 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
-          "id" : "1",
+          "id": "3",
           "name": "Cappuccino",
           "productId": "rolex_003",
           "description": "With Chocolate",
@@ -50,7 +50,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
-          "id" : "1",
+          "id": "4",
           "name": "Cappuccino",
           "productId": "rolex_004",
           "description": "With Chocolate",
@@ -60,7 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
-          "id" : "1",
+          "id": "5",
           "name": "Cappuccino",
           "productId": "rolex_005",
           "description": "With Chocolate",
@@ -70,7 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
-          "id" : "1",
+          "id": "6",
           "name": "Cappuccino",
           "productId": "rolex_006",
           "description": "With Chocolate",
@@ -80,7 +80,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
-          "id" : "1",
+          "id": "7",
           "name": "Cappuccino",
           "productId": "rolex_007",
           "description": "With Chocolate",
@@ -90,7 +90,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
-          "id" : "1",
+          "id": "8",
           "name": "Cappuccino",
           "productId": "rolex_008",
           "description": "With Chocolate",
@@ -100,7 +100,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
-          "id" : "1",
+          "id": "9",
           "name": "Cappuccino",
           "productId": "rolex_009",
           "description": "With Chocolate",
@@ -110,7 +110,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
-          "id" : "1",
+          "id": "10",
           "name": "Cappuccino",
           "productId": "rolex_010",
           "description": "With Chocolate",
@@ -120,7 +120,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
-          "id" : "1",
+          "id": "11",
           "name": "Cappuccino",
           "productId": "rolex_011",
           "description": "With Chocolate",
@@ -130,7 +130,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
-          "id" : "1",
+          "id": "12",
           "name": "Cappuccino",
           "productId": "rolex_012",
           "description": "With Chocolate",
@@ -140,7 +140,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
-          "id" : "1",
+          "id": "13",
           "name": "Cappuccino",
           "productId": "rolex_013",
           "description": "With Chocolate",
@@ -150,7 +150,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
-          "id" : "1",
+          "id": "14",
           "name": "Cappuccino",
           "productId": "rolex_014",
           "description": "With Chocolate",
@@ -160,7 +160,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
-          "id" : "1",
+          "id": "15 ",
           "name": "Cappuccino",
           "productId": "rolex_015",
           "description": "With Chocolate",
@@ -489,7 +489,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           transition: Transition.fade,
                           duration: const Duration(seconds: 1));
                     },
-                    child: Icon(
+                    child: const Icon(
                       CupertinoIcons.cart,
                       color: Colors.white,
                       size: 24.0,
@@ -705,16 +705,16 @@ class _HomeScreenState extends State<HomeScreen> {
                                             GestureDetector(
                                               onTap: () {
                                                 Provider.of<Cart>(context,
-                                                        listen: true)
+                                                        listen: false)
                                                     .addItem(
                                                         product["productId"],
                                                         product["price"],
-                                                        product["title"]);
+                                                        product["name"]);
                                                 ScaffoldMessenger.of(context)
                                                     .showSnackBar(
                                                   SnackBar(
                                                     content: Text(
-                                                        '${product.name} added to cart'),
+                                                        '${product['name']} added to cart'),
                                                     duration: const Duration(
                                                         seconds: 2),
                                                   ),
