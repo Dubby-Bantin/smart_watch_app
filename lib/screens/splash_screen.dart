@@ -28,7 +28,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   borderRadius: BorderRadius.circular(16.0),
                   // Adjust the radius as needed
                   child: Image.asset(
-                    "assets/images/products-sp-m (1).png",
+                    "assets/images/products-sp-m (1).jpg",
                     width: MediaQuery.of(context).size.width,
                     height: MediaQuery.of(context).size.height / 2,
                     fit: BoxFit.cover, // Adjust the fit as needed

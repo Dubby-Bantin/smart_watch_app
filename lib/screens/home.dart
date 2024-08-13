@@ -20,10 +20,10 @@ class _HomeScreenState extends State<HomeScreen> {
       "name": "ROLEX",
       "products": [
         {
-          "id": 1,
-          "name": "Cappuccino",
+          "id": "1",
+          "name": "Rolex 1908",
           "productId": "rolex_001",
-          "description": "With Oat Milk",
+          "description": "Elegant classic.",
           "price": 4.20,
           "imagePath":
               "assets/images/collection-rolex-watches-1908-m52506-0002-10151_rsa_olympe_carrousel_24.png",
@@ -31,9 +31,9 @@ class _HomeScreenState extends State<HomeScreen> {
         },
         {
           "id": "2",
-          "name": "Cappuccino",
+          "name": "GMT-Master II",
           "productId": "rolex_002",
-          "description": "With Chocolate",
+          "description": "Bold and precise.",
           "price": 3.14,
           "imagePath":
               "assets/images/collection-rolex-watches-air-king-m126900-0001-10155_rsa_airking_40_m126900_0001_carrousel_24.png",
@@ -41,9 +41,9 @@ class _HomeScreenState extends State<HomeScreen> {
         },
         {
           "id": "3",
-          "name": "Cappuccino",
+          "name": "Cosmograph",
           "productId": "rolex_003",
-          "description": "With Chocolate",
+          "description": "Sporty style.",
           "price": 3.14,
           "imagePath":
               "assets/images/collection-rolex-watches-cosmograph-daytona-m126509-0001-10168_rsa_daytona_40_m126509_0001_carrousel_24-portrait.png",
@@ -51,9 +51,9 @@ class _HomeScreenState extends State<HomeScreen> {
         },
         {
           "id": "4",
-          "name": "Cappuccino",
+          "name": "Datejust",
           "productId": "rolex_004",
-          "description": "With Chocolate",
+          "description": "Timeless elegance.",
           "price": 3.14,
           "imagePath":
               "assets/images/collection-rolex-watches-datejust-m126234-0051-10161_rsa_datejust_31_m278274_0018_carrousel_24.png",
@@ -61,9 +61,9 @@ class _HomeScreenState extends State<HomeScreen> {
         },
         {
           "id": "5",
-          "name": "Cappuccino",
+          "name": "Day-Date",
           "productId": "rolex_005",
-          "description": "With Chocolate",
+          "description": "Prestige refined.",
           "price": 3.14,
           "imagePath":
               "assets/images/collection-rolex-watches-day-date-m228235-0055-10150_rsa_cad24_everose_carrousel_24.png",
@@ -71,9 +71,9 @@ class _HomeScreenState extends State<HomeScreen> {
         },
         {
           "id": "6",
-          "name": "Cappuccino",
+          "name": "Deepsea",
           "productId": "rolex_006",
-          "description": "With Chocolate",
+          "description": "Dive master.",
           "price": 3.14,
           "imagePath":
               "assets/images/collection-rolex-watches-deepsea-m136668lb-0001-10153_rsa_caraibes_44_carrousel_24_ab.png",
@@ -81,9 +81,9 @@ class _HomeScreenState extends State<HomeScreen> {
         },
         {
           "id": "7",
-          "name": "Cappuccino",
+          "name": "Explorer",
           "productId": "rolex_007",
-          "description": "With Chocolate",
+          "description": "Adventure ready.",
           "price": 3.14,
           "imagePath":
               "assets/images/collection-rolex-watches-deepsea-m136668lb-0001-10153_rsa_caraibes_44_carrousel_24_ab (1).png",
@@ -91,9 +91,9 @@ class _HomeScreenState extends State<HomeScreen> {
         },
         {
           "id": "8",
-          "name": "Cappuccino",
+          "name": "Explorer II",
           "productId": "rolex_008",
-          "description": "With Chocolate",
+          "description": "Dual time zones.",
           "price": 3.14,
           "imagePath":
               "assets/images/collection-rolex-watches-explorer-m124273-0001-10157_rsa_explorer_36_m124273_0001_carrousel_24.png",
@@ -101,9 +101,9 @@ class _HomeScreenState extends State<HomeScreen> {
         },
         {
           "id": "9",
-          "name": "Cappuccino",
+          "name": "Yacht-Master",
           "productId": "rolex_009",
-          "description": "With Chocolate",
+          "description": "Nautical elegance.",
           "price": 3.14,
           "imagePath":
               "assets/images/collection-rolex-watches-gmt-master-ii-m126710grnr-0004-10149_rsa_topolino_oyster_carrousel_24.png",
@@ -111,9 +111,9 @@ class _HomeScreenState extends State<HomeScreen> {
         },
         {
           "id": "10",
-          "name": "Cappuccino",
+          "name": "Oyster Perpetual",
           "productId": "rolex_010",
-          "description": "With Chocolate",
+          "description": "Simple and sleek.",
           "price": 3.14,
           "imagePath":
               "assets/images/collection-rolex-watches-explorer-m124273-0001-10157_rsa_explorer_36_m124273_0001_carrousel_24.png",
@@ -121,9 +121,9 @@ class _HomeScreenState extends State<HomeScreen> {
         },
         {
           "id": "11",
-          "name": "Cappuccino",
+          "name": "Lady-Datejust",
           "productId": "rolex_011",
-          "description": "With Chocolate",
+          "description": "Refined elegance.",
           "price": 3.14,
           "imagePath":
               "assets/images/collection-rolex-watches-lady-datejust-m279135rbr-0001-10160_rsa_ladydatejust_28_m279135rbr_0001_carrousel_24.png",
@@ -131,9 +131,9 @@ class _HomeScreenState extends State<HomeScreen> {
         },
         {
           "id": "12",
-          "name": "Cappuccino",
+          "name": "Sea-Dweller",
           "productId": "rolex_012",
-          "description": "With Chocolate",
+          "description": "Deep diver.",
           "price": 3.14,
           "imagePath":
               "assets/images/collection-rolex-watches-oyster-perpetual-m124300-0001-10159_rsa_oysterperpetual_41_m124300_0001_carrousel_24.png",
@@ -141,9 +141,9 @@ class _HomeScreenState extends State<HomeScreen> {
         },
         {
           "id": "13",
-          "name": "Cappuccino",
+          "name": "Sky-Dweller",
           "productId": "rolex_013",
-          "description": "With Chocolate",
+          "description": "Traveler's watch.",
           "price": 3.14,
           "imagePath":
               "assets/images/collection-rolex-watches-sea-dweller-10158_rsa_seadweller_43_m126603_0001_carrousel_24.png",
@@ -151,19 +151,19 @@ class _HomeScreenState extends State<HomeScreen> {
         },
         {
           "id": "14",
-          "name": "Cappuccino",
+          "name": "Yacht-Master II",
           "productId": "rolex_014",
-          "description": "With Chocolate",
+          "description": "Luxury on water.",
           "price": 3.14,
           "imagePath":
               "assets/images/collection-rolex-watches-sky-dweller-m336935-0008-10152_rsa_cap_everose_42_carrousel_24_19_02_2024.png",
           "rating": 4.2,
         },
         {
-          "id": "15 ",
-          "name": "Cappuccino",
+          "id": "15",
+          "name": "GMT II",
           "productId": "rolex_015",
-          "description": "With Chocolate",
+          "description": "World traveler.",
           "price": 3.14,
           "imagePath":
               "assets/images/collection-rolex-watches-yacht-master-m226627-0001-10154_rsa_yachtmaster_42_m226627_0001_carrousel_24-portrait.png",
@@ -175,159 +175,179 @@ class _HomeScreenState extends State<HomeScreen> {
       "name": "HUBLOT",
       "products": [
         {
-          "name": "Cappuccino",
-          "description": "With Oat Milk",
+          "productId": "hublot_001",
+          "name": "Black Magic",
+          "description": "Sleek and stylish",
           "price": 4.20,
           "imagePath":
               "assets/images/big-bang-integral-black-magic-soldier.png",
           "rating": 4.6,
         },
         {
-          "name": "Cappuccino",
-          "description": "With Chocolate",
+          "productId": "hublot_002",
+          "name": "Titanium Ceramic",
+          "description": "Modern elegance",
           "price": 3.14,
           "imagePath":
               "assets/images/big-bang-integral-titanium-ceramic-42-mm-soldier.png",
           "rating": 4.2,
         },
         {
-          "name": "Cappuccino",
-          "description": "With Chocolate",
+          "productId": "hublot_003",
+          "name": "King Gold",
+          "description": "Luxurious gold",
           "price": 3.14,
           "imagePath":
               "assets/images/Big-Bang-Integrated-King-gold-showcase_1.png",
           "rating": 4.2,
         },
         {
-          "name": "Cappuccino",
-          "description": "With Chocolate",
+          "productId": "hublot_004",
+          "name": "Black Magic 42mm",
+          "description": "Compact and bold",
           "price": 3.14,
           "imagePath":
               "assets/images/big-bang-unico-black-magic-42-mm-soldier-shot_0.png",
           "rating": 4.2,
         },
         {
-          "name": "Cappuccino",
-          "description": "With Chocolate",
+          "productId": "hublot_005",
+          "name": "Ice Bang",
+          "description": "Cool and classy",
           "price": 3.14,
           "imagePath": "assets/images/big-bang-unico-ice-bang-42-mm-LS-1.jpg",
           "rating": 4.2,
         },
         {
-          "name": "Cappuccino",
-          "description": "With Chocolate",
+          "productId": "hublot_006",
+          "name": "Ice Bang 42mm",
+          "description": "Chilled elegance",
           "price": 3.14,
           "imagePath":
               "assets/images/big-bang-unico-ice-bang-42-mm-soldier-shot.png",
           "rating": 4.2,
         },
         {
-          "name": "Cappuccino",
-          "description": "With Chocolate",
+          "productId": "hublot_007",
+          "name": "King Gold 42mm",
+          "description": "Golden luxury",
           "price": 3.14,
           "imagePath":
               "assets/images/big-bang-unico-king-gold-42-mm-soldier-shot_0.png",
           "rating": 4.2,
         },
         {
-          "name": "Cappuccino",
-          "description": "With Chocolate",
+          "productId": "hublot_008",
+          "name": "King Gold Ceramic",
+          "description": "Gold and ceramic",
           "price": 3.14,
           "imagePath":
               "assets/images/big-bang-unico-king-gold-ceramic-42-mm-soldier-shot.png",
           "rating": 4.2,
         },
         {
-          "name": "Cappuccino",
-          "description": "With Chocolate",
+          "productId": "hublot_009",
+          "name": "Titanium 42mm",
+          "description": "Strong and sleek",
           "price": 3.14,
           "imagePath":
               "assets/images/big-bang-unico-titanium-42-mm-soldier-shot.png",
           "rating": 4.2,
         },
         {
-          "name": "Cappuccino",
-          "description": "With Chocolate",
+          "productId": "hublot_010",
+          "name": "Titanium Blue",
+          "description": "Blue elegance",
           "price": 3.14,
           "imagePath":
               "assets/images/Big-Bang-Unico-Titanium-Blue-Ceramic-42-mm-soldier-shot.png",
           "rating": 4.2,
         },
         {
-          "name": "Cappuccino",
-          "description": "With Chocolate",
+          "productId": "hublot_011",
+          "name": "Titanium Ceramic",
+          "description": "Ceramic style",
           "price": 3.14,
           "imagePath":
               "assets/images/Big-Bang-Unico-Titanium-Ceramic-42-mm-soldier-shot.png",
           "rating": 4.2,
-        },
-      ],
+        }
+      ]
     },
     {
       "name": "CARTIER",
       "products": [
         {
-          "name": "Cappuccino",
-          "description": "With Oat Milk",
+          "productId": "cartier_001",
+          "name": "Santos de Cartier",
+          "description": "Classic elegance",
           "price": 4.20,
           "imagePath": "assets/images/5a6e30c284a059c2bb66ec1cd5660cc7.png",
           "rating": 4.6,
         },
         {
-          "name": "Cappuccino",
-          "description": "With Chocolate",
+          "productId": "cartier_002",
+          "name": "Ballon Bleu",
+          "description": "Timeless beauty",
           "price": 3.14,
           "imagePath": "assets/images/150ad2833e115855b2d810506c417e00.png",
           "rating": 4.2,
         },
         {
-          "name": "Cappuccino",
-          "description": "With Chocolate",
+          "productId": "cartier_003",
+          "name": "Tank Française",
+          "description": "Iconic design",
           "price": 3.14,
           "imagePath": "assets/images/5422c5fc673d5f9a8a41a1aecb8a87fa.png",
           "rating": 4.2,
         },
         {
-          "name": "Cappuccino",
-          "description": "With Chocolate",
+          "productId": "cartier_004",
+          "name": "Panthère de Cartier",
+          "description": "Elegant and bold",
           "price": 3.14,
           "imagePath": "assets/images/7281b1bdc7e653009d7afbf7833dfd83.png",
           "rating": 4.2,
         },
         {
-          "name": "Cappuccino",
-          "description": "With Chocolate",
+          "productId": "cartier_005",
+          "name": "Pasha de Cartier",
+          "description": "Distinctive style",
           "price": 3.14,
           "imagePath": "assets/images/54402c5a408b55a18a1ee4939266b244.png",
           "rating": 4.2,
         },
         {
-          "name": "Cappuccino",
-          "description": "With Chocolate",
+          "productId": "cartier_006",
+          "name": "Drive de Cartier",
+          "description": "Refined elegance",
           "price": 3.14,
           "imagePath": "assets/images/479519d2d8b9595aa2b37abe8ecb1799.png",
           "rating": 4.2,
         },
         {
-          "name": "Cappuccino",
-          "description": "With Chocolate",
+          "productId": "cartier_007",
+          "name": "Ronde Solo",
+          "description": "Simple sophistication",
           "price": 3.14,
           "imagePath": "assets/images/ab421ed7d4355cda90cda269108e7dc0.png",
           "rating": 4.2,
         },
         {
-          "name": "Cappuccino",
-          "description": "With Chocolate",
+          "productId": "cartier_008",
+          "name": "Calibre de Cartier",
+          "description": "Sporty elegance",
           "price": 3.14,
           "imagePath": "assets/images/bef2c91283b35b56a0b0eee46615f033.png",
           "rating": 4.2,
-        },
-      ],
+        }
+      ]
     },
     {
       "name": "G-SHOCK",
       "products": [
         {
+          "productId": "g-shock_001",
           "name": "Cappuccino",
           "description": "With Oat Milk",
           "price": 4.20,
@@ -335,6 +355,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.6,
         },
         {
+          "productId": "g-shock_002",
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
@@ -342,6 +363,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
+          "productId": "g-shock_003",
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
@@ -349,6 +371,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
+          "productId": "g-shock_004",
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
@@ -356,6 +379,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
+          "productId": "g-shock_005",
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
@@ -363,6 +387,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
+          "productId": "g-shock_006",
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
@@ -370,6 +395,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
+          "productId": "g-shock_007",
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
@@ -377,6 +403,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
+          "productId": "g-shock_008",
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
@@ -384,6 +411,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
+          "productId": "g-shock_009",
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
@@ -391,6 +419,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
+          "productId": "g-shock_010",
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
@@ -398,6 +427,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
+          "productId": "g-shock_011",
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
@@ -405,6 +435,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "rating": 4.2,
         },
         {
+          "productId": "g-shock_012",
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
@@ -415,7 +446,6 @@ class _HomeScreenState extends State<HomeScreen> {
     },
   ];
 
-  // Carousel related properties
   final List<String> imagePaths = [
     "assets/images/products-m.png",
     "assets/images/c0ae8a1d2713509e828829afa855ff05.png",
@@ -671,7 +701,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     children: [
                                       BoldText(
                                         text: product["name"],
-                                        size: 20,
+                                        size: 14,
                                         color: Colors.white,
                                       ),
                                       BoldText(
@@ -709,7 +739,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                                     .addItem(
                                                         product["productId"],
                                                         product["price"],
-                                                        product["name"]);
+                                                        product["name"],
+                                                        product["imagePath"]);
                                                 ScaffoldMessenger.of(context)
                                                     .showSnackBar(
                                                   SnackBar(

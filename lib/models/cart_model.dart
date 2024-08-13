@@ -20,26 +20,26 @@ class Cart with ChangeNotifier {
     return total;
   }
 
-  void addItem(String productId, double price, String title) {
+  void addItem(String productId, double price, String title, String image) {
     if (_items.containsKey(productId)) {
       _items.update(
         productId,
-            (existingCartItem) => CartItem(
-          id: existingCartItem.id,
-          title: existingCartItem.title,
-          quantity: existingCartItem.quantity + 1,
-          price: existingCartItem.price,
-        ),
+        (existingCartItem) => CartItem(
+            id: existingCartItem.id,
+            title: existingCartItem.title,
+            quantity: existingCartItem.quantity + 1,
+            price: existingCartItem.price,
+            image: existingCartItem.image),
       );
     } else {
       _items.putIfAbsent(
         productId,
-            () => CartItem(
-          id: DateTime.now().toString(),
-          title: title,
-          quantity: 1,
-          price: price,
-        ),
+        () => CartItem(
+            id: DateTime.now().toString(),
+            title: title,
+            quantity: 1,
+            price: price,
+            image: image),
       );
     }
     notifyListeners();

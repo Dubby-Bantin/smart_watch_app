@@ -57,6 +57,7 @@ class CartScreen extends StatelessWidget {
                 price: cart.items.values.toList()[i].price,
                 quantity: cart.items.values.toList()[i].quantity,
                 title: cart.items.values.toList()[i].title,
+                image: cart.items.values.toList()[i].image,
               ),
             ),
           ),
@@ -72,6 +73,7 @@ class CartItemWidget extends StatelessWidget {
   final double price;
   final int quantity;
   final String title;
+  final String image;
 
   const CartItemWidget({super.key, 
     required this.id,
@@ -79,6 +81,7 @@ class CartItemWidget extends StatelessWidget {
     required this.price,
     required this.quantity,
     required this.title,
+    required this.image
   });
 
   @override
@@ -112,10 +115,11 @@ class CartItemWidget extends StatelessWidget {
           padding: const EdgeInsets.all(8),
           child: ListTile(
             leading: CircleAvatar(
+              backgroundColor: Colors.black,
               child: Padding(
                 padding: const EdgeInsets.all(5),
                 child: FittedBox(
-                  child: Text('\$$price'),
+                  child: Image.asset(image),
                 ),
               ),
             ),
