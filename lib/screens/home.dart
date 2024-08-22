@@ -351,7 +351,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "name": "Cappuccino",
           "description": "With Oat Milk",
           "price": 4.20,
-          "imagePath": "assets/images/dw-h5600-1-bnr.webp",
+          "imagePath": "assets/images/dw-h5600-1-bnr.png",
           "rating": 4.6,
         },
         {
@@ -359,7 +359,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
-          "imagePath": "assets/images/e30a1352d1265ab28f1a24cb6b4d40c7.png",
+          "imagePath": "assets/images/e30a1352d1265ab28f1a24cb6b4d40c7.jpg",
           "rating": 4.2,
         },
         {
@@ -367,7 +367,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
-          "imagePath": "assets/images/gmw-b5000d-1-bnr.png",
+          "imagePath": "assets/images/gmw-b5000d-1-bnr.jpg",
           "rating": 4.2,
         },
         {
@@ -375,7 +375,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
-          "imagePath": "assets/images/gr-b300-1a-bnr-en.png",
+          "imagePath": "assets/images/gr-b300-1a-bnr-en.jpg",
           "rating": 4.2,
         },
         {
@@ -383,7 +383,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
-          "imagePath": "assets/images/gst-b600-1a-bnr.png",
+          "imagePath": "assets/images/gst-b600-1a-bnr.jpg",
           "rating": 4.2,
         },
         {
@@ -391,7 +391,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
-          "imagePath": "assets/images/gwg-b1000-1a-bnr.png",
+          "imagePath": "assets/images/gwg-b1000-1a-bnr.jpg",
           "rating": 4.2,
         },
         {
@@ -399,7 +399,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
-          "imagePath": "assets/images/kv-1920x816-logo.png",
+          "imagePath": "assets/images/kv-1920x816-logo.jpg",
           "rating": 4.2,
         },
         {
@@ -407,7 +407,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
-          "imagePath": "assets/images/mrg-b2100b-1a-bnr.png",
+          "imagePath": "assets/images/mrg-b2100b-1a-bnr.jpg",
           "rating": 4.2,
         },
         {
@@ -415,7 +415,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
-          "imagePath": "assets/images/mtg-b3000d-1a-bnr.png",
+          "imagePath": "assets/images/mtg-b3000d-1a-bnr.jpg",
           "rating": 4.2,
         },
         {
@@ -423,7 +423,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
-          "imagePath": "assets/images/products-m.png",
+          "imagePath": "assets/images/products-m.jpg",
           "rating": 4.2,
         },
         {
@@ -431,7 +431,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
-          "imagePath": "assets/images/products-sp-m.png",
+          "imagePath": "assets/images/products-sp-m.jpg",
           "rating": 4.2,
         },
         {
@@ -439,7 +439,7 @@ class _HomeScreenState extends State<HomeScreen> {
           "name": "Cappuccino",
           "description": "With Chocolate",
           "price": 3.14,
-          "imagePath": "assets/images/products-sp-m (1).png",
+          "imagePath": "assets/images/products-sp-m (1).jpg",
           "rating": 4.2,
         },
       ],
@@ -447,11 +447,11 @@ class _HomeScreenState extends State<HomeScreen> {
   ];
 
   final List<String> imagePaths = [
-    "assets/images/products-m.png",
+    "assets/images/products-m.jpg",
     "assets/images/c0ae8a1d2713509e828829afa855ff05.png",
-    "assets/images/products-sp-m.png",
-    "assets/images/kv-1920x816-logo.png",
-    "assets/images/products-sp-m (1).png"
+    "assets/images/products-sp-m.jpg",
+    "assets/images/kv-1920x816-logo.jpg",
+    "assets/images/products-sp-m (1).jpg"
   ];
 
   late List<Widget> _pages;
